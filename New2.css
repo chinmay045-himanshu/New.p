@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #333;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#darkModeToggle {
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: black;
+    color: white;
+}
